@@ -13,6 +13,7 @@
         <link rel="icon" href="portfolio-icon.png" type="image/x-icon">
         <link href="custom.css" rel="stylesheet" >
         <link href="bootstrap.min.css" rel="stylesheet" >
+        <script defer src="port.js"></script>
 
         <title>Portfolio | Calvin Ryndell Designs</title>
 
@@ -24,7 +25,7 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container">
                         <a class="navbar-brand" href="index.html">
-                            <img src="calvin-ryndell-title.svg" width="205" height="90" alt="logo for Calvin
+                            <img src="Images/calvin-ryndell-title.svg" width="205" height="90" alt="logo for Calvin
                             Ryndell Designs">
                             <span class="d-none">Calvin Ryndell Designs</span>
                         </a>
@@ -59,12 +60,17 @@
         </header>
 
         <main>
+            <header style="background-image: url(Images/port-bg.jpg)" class="bg-img">
+                <div class="color-overlay d-flex justify-content-center align-items-center">
+                    <h1 class="hero-text">My Portfolio</h1>
+                </div>
+            </header>
             <div class="container my-2 py-md-4">
-                <h1>My Portfolio</h1>
-                <div class="row mt-1 g-2 g-md-3">
-                    <div class="zoom col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="kafka.png" alt="Kafka"
+                <h1>Designs</h1>
+                <div class="row mt-1 g-2 g-md-3 pages">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="page1 card hidden">
+                            <img src="Images/kafka.png" alt="Kafka"
                             class="card-img-top"/>
                             <div class="card-body">
                                 <h5 class="card-titles">Character Page</h5>
@@ -77,9 +83,11 @@
                             </div>
                         </div>
                     </div>
+                
+
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="poetry.png" alt="poetry"
+                        <div class="page2 card hidden">
+                            <img src="Images/poetry.png" alt="poetry"
                             class="card-img-top"/>
                             <div class="card-body">
                                 <h5 class="card-titles">Poetry Workshop</h5>
@@ -92,9 +100,12 @@
                             </div>
                         </div>
                     </div>
+                
+
+                
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="rec-store.png" alt="record"
+                        <div class="card hidden">
+                            <img src="Images/rec-store.png" alt="record"
                             class="card-img-top"/>
                             <div class="card-body">
                                 <h5 class="card-titles">Record Store</h5>
@@ -106,6 +117,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </main>
