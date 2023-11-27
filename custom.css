@@ -31,13 +31,14 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: white;
     font-weight: 600;
+    color: #13253d;
 }
 
 .active, .nav-link:hover {
     background-color: rgb(103, 204, 201);
     border: 2px solid rgb(40, 199, 196);
+    padding: 4px;
     border-radius: 12px;
     transition: .1s;
 }
@@ -135,7 +136,24 @@ main {
     width: 100%;
     height: 0;
     transition: .5s ease;
-} 
+}
+
+.btn-outline-light:hover {
+    background-color: wheat;
+}
+
+.form-control {
+    background-color: aliceblue;
+    transition: .5s;
+}
+
+.btn-primary {
+    background-color: rgb(24, 107, 250);
+}
+
+.btn-primary:hover {
+    background-color: rgb(11, 84, 210);
+}
 
 footer {
     background-color: #3a3a3a;
