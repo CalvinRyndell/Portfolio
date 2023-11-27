@@ -13,6 +13,7 @@ header {
     color: white;
 }
 
+
 .navbar-light .navbar-toggler {
     color: aliceblue;
     border-color: aliceblue;
@@ -36,8 +37,8 @@ header {
 }
 
 .active, .nav-link:hover {
-    background-color: rgb(103, 204, 201);
-    border: 2px solid rgb(40, 199, 196);
+    background-color: rgb(103, 191, 204);
+    border: 2px solid rgb(40, 186, 199);
     padding: 4px;
     border-radius: 12px;
     transition: .1s;
