@@ -5,6 +5,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(216, 255, 255);
 }
 
 header {
@@ -157,7 +158,7 @@ main {
 }
 
 footer {
-    background-color: #3a3a3a;
+    background-color: rgb(82, 11, 37);
     color: wheat;
     flex-shrink: 0;
 }
@@ -174,7 +175,7 @@ footer a:hover{
 @keyframes transitionIn{
     from {
         opacity: 0;
-        transform: rotateX(-10deg)\;
+        transform: rotateX(-10deg);
     }
 
     to {
